@@ -17,7 +17,7 @@ particularly useful
 
 ###Resources
 
-I was formally not taught any _HTML_ or _CSS_ in school so I had too look
+I wasn't formally taught any _HTML_ or _CSS_ in school so I had too look
 elsewhere for help. One site that helped me greatly was
 [codecademy](https://www.codecademy.com/). They provide in depth guides and
 tutorials to learn programming languages and create your own website. Best of
