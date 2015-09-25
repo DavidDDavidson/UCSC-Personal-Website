@@ -8,12 +8,14 @@ resource. Additionally, this repository exists to showcase my _HTML_ and _CSS_
 capabilities.
 
 ###What's Currently in Development
-- [ ] Change the entire layout of the site using _Bootstrap_
+- [x] Change the entire layout of the site using _Bootstrap_
 - [ ] Show my resume in a good manner on the site
 - [ ] Make the site multiple pages
 - [ ] Link and show off other projects
 - [ ] Improve this _README_ such that anyone accessing this page finds it
 particularly useful
+- [x] Make the website mobile friendly (using bootstrap does this well 
+  apparently)
 
 ###Resources
 

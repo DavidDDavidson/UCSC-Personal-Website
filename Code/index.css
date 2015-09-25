@@ -1,0 +1,17 @@
+.jumbotron{
+  background-image: url(Files/Dew.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.container .row .col-md-3 h2{
+  color: #666;
+}
+
+.container .row .col-md-3 p{
+  color: #666;
+}
+
+.navbar{
+  color: #666;
+}
