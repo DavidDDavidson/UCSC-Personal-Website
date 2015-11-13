@@ -30,6 +30,10 @@
   margin-top: 0px;
   margin-bottom: 50px;
 }
+.grey-panel .panel-heading{
+  background-image: none;
+  background-color: #ddd;
+}
 /************************/
 
 /* White Panel */
@@ -47,6 +51,12 @@
 .white-panel .panel{
   margin-top: 0px;
   margin-bottom: 50px;
+  border: 0 none;
+  box-shadow: none;
+}
+.white-panel .panel-heading{
+  background-image: none;
+  background-color: #fff;
   border: 0 none;
   box-shadow: none;
 }

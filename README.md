@@ -10,11 +10,11 @@ capabilities.
 ###What's Currently in Development
 - [x] Change the entire layout of the site using _Bootstrap_
 - [ ] Show my resume in a good manner on the site
-- [ ] Make the site multiple pages
-- [ ] Link and show off other projects
+- [x] Make the site multiple pages
+- [x] Link and show off other projects
 - [ ] Improve this _README_ such that anyone accessing this page finds it
 particularly useful
-- [x] Make the website mobile friendly (using bootstrap does this well 
+- [x] Make the website mobile friendly (using bootstrap does this well
   apparently)
 
 ###Resources
