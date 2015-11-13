@@ -1,17 +1,53 @@
+/* Jumbotron */
 .jumbotron{
   background-image: url(Files/Dew.jpg);
   background-size: cover;
   color: white;
+  margin-bottom: 0px;
 }
+/************************/
 
-.container .row .col-md-3 h2{
-  color: #666;
-}
-
-.container .row .col-md-3 p{
-  color: #666;
-}
-
+/* Navbar */
 .navbar{
-  color: #666;
+  color: #000;
+  margin-bottom: 0px;
 }
+/************************/
+
+/* Grey Panel */
+.grey-panel .panel-body .row .thumbnail{
+  background-color: #ddd;
+  color: #000;
+  border: 0 none;
+  box-shadow: none;
+}
+.grey-panel .panel-body{
+  background-color: #ddd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.grey-panel .panel{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+/************************/
+
+/* White Panel */
+.white-panel .panel-body .row .thumbnail{
+  background-color: #FFF;
+  color: #000;
+  border: 0 none;
+  box-shadow: none;
+}
+.white-panel .panel-body{
+  background-color: #FFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.white-panel .panel{
+  margin-top: 0px;
+  margin-bottom: 50px;
+  border: 0 none;
+  box-shadow: none;
+}
+/************************/
