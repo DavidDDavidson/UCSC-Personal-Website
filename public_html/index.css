@@ -65,22 +65,20 @@
 /* Carousel */
 /* Carousel base class */
 .carousel {
-  height:900px;
+  height:600px;
   margin-bottom: 0px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   position: absolute;
-  top: 450px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-25%);
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 900px;
+  height: 600px;
   background-color: #ddd;
 }
 .carousel-inner > .item > img {
