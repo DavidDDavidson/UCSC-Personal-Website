@@ -63,28 +63,43 @@
 /************************/
 
 /* Carousel */
-/* Carousel base class */
-.carousel {
-  height:600px;
-  margin-bottom: 0px;
-}
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-25%);
 }
+.carousel-inner img {
+  margin: auto;
+  min-width: 100%;
+}
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 600px;
+.carousel-inner{
   background-color: #ddd;
 }
-.carousel-inner > .item > img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-height: 100%;
+
+
+/********************/
+
+/* Modals */
+
+.modal-body{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/********************/
+/*Text and Button Styles */
+
+.carousel-text{
+  color: #FFFFFF;
+  text-shadow: 3px 3px 6px #000000, 1px 1px 2px #000000;
+}
+
+.carousel-button{
+  color: #FFFFFF;
+  background: none;
+  border-radius: 0;
+  border: 2px solid #FFFFFF;
+  box-shadow: 3px 3px 6px #000000, 1px 1px 2px #000000;
 }

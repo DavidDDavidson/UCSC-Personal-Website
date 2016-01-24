@@ -17,156 +17,142 @@
         <div class = "navbar-header pull-left">
           <a class = "navbar-brand" href = "index.html">David Aguirre</a>
         </div>
-        <ul class = "nav navbar-nav pull-right" role="navigation">
-          <li class = "active"><a href = "index.html">Home</a></li>
-          <li><a href = "about_me.html">About Me</a></li>
-          <li><a href = "resume.html">Resume</a></li>
-          <li><a href = "projects.html">Projects</a></li>
-          <li><a href = "resources.html">Resources</a></li>
-        </ul>
       </div>
     </nav>
-<!--Website Home page attraction/jumbotron-->
-<div id="carousel-example-generic" class="carousel slide">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="Images/CPU_1.jpg" alt="CPU">
 
-      <div class="carousel-caption">
-        <h2>Welcome to my website!</h2>
-        <p>
-          A dedication to my work and passion for computer science.
-        </p>
+
+<!----------------------------------------------------------------------------->
+<!--Website Home page attraction/jumbotron------------------------------------->
+<!----------------------------------------------------------------------------->
+    <div id="carousel-front" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="Images/CPU_1.jpg" alt="CPU">
+          <div class="carousel-caption carousel-text">
+            <h1>Welcome to my website!</h1>
+            <p>
+              A dedication to my work and passion for computer science.
+            </p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/Security_1.jpg" alt="Security">
+          <div class="carousel-caption carousel-text">
+            <h1>Biography</h1>
+            <p>
+              Learn about my background, my goals, and my interests.
+            </p>
+            <button type="button" class="btn btn-default btn-lg carousel-button" data-toggle="modal" data-target="#biography">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/CPU_2.jpg" alt="CPU">
+          <div class="carousel-caption carousel-text">
+            <h1>Résumé</h1>
+            <p>
+              Learn about my technical skills and abilities.
+            </p>
+            <button type="button" class="btn btn-default btn-lg carousel-button" data-toggle="modal" data-target="#résumé">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/PCB_2.jpg" alt="PCB">
+          <div class="carousel-caption carousel-text">
+            <h1>Projects</h1>
+            <p>
+              See my projects in progress and completed.
+            </p>
+            <button type="button" class="btn btn-default btn-lg carousel-button" data-toggle="modal" data-target="#projects">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="Images/Programming_1.jpg" alt="Programming">
+          <div class="carousel-caption carousel-text">
+            <h1>Resources</h1>
+            <p>
+              A list of resources I find incredibly useful.
+            </p>
+            <button type="button" class="btn btn-default btn-lg carousel-button" data-toggle="modal" data-target="#resources">
+            <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="item">
-      <img src="Images/Graphs_1.png" alt="Web">
-      <div class="carousel-caption">
-        <h2>Biography</h2>
-        <p>
-          Learn about my background, my goals, and my interests.
-        </p>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-front" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-front" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+<!----------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+
+
+
+<!----------------------------------------------------------------------------->
+<!--Modals--------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+
+<!--biography------------------------------------------------------------------>
+    <div class="modal fade" id="biography" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">Biography</h2>
       </div>
-    </div>
-
-    <div class="item">
-      <img src="Images/CPU_2.jpg" alt="CPU">
-      <div class="carousel-caption">
-        <h2>Résumé</h2>
-        <p>
-          Learn about my technical skills and abilities.
-        </p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="Images/PCB_2.jpg" alt="PCB">
-      <div class="carousel-caption">
-        <h2>Projects</h2>
-        <p>
-          See my projects in progress and completed.
-        </p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="Images/Programming_1.jpg" alt="Programming">
-      <div class="carousel-caption">
-        <h2>Resources</h2>
-        <p>
-          A list of resources I find incredibly useful.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-
-
-    <div class="grey-panel">
-      <div class="panel panel-default">
-        <div class="panel-body">
-          <div class = "container">
-            <div class = "row">
-
-              <div class = "col-md-3">
-                <div class = "thumbnail">
-                  <div class = "caption">
-                    <h2>About Me</h2>
-                      <p>
-                        Learn a little about me and my interests in and outside of
-                        computer science.
-                      </p>
-                      <p>
-                        <a class = "btn btn-default" href="about_me.html">Learn More</a>
-                      </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class = "col-md-3">
-                <div class = "thumbnail">
-                  <div class = "caption">
-                    <h2>Résumé</h2>
+      <div class="modal-body row">
+        <div class="grey-panel">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
                     <p>
-                      My online resume. Up to date and ready for your viewing pleasure.
-                      Learn about my technical skills and abilities.
-                    </p>
-                    <p>
-                      <a class = "btn btn-default" href="resume.html">Learn More</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class = "col-md-3">
-                <div class = "thumbnail">
-                  <div class = "caption">
-                    <h2>Projects</h2>
-                    <p>
-                      Take a look at the projects I'm currently working on and the
-                      ones I've completed.
-                    </p>
-                    <p>
-                      <a class = "btn btn-default" href="projects.html">Learn More</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class = "col-md-3">
-                <div class = "thumbnail">
-                  <div class = "caption">
-                    <h2>Resources</h2>
-                    <p>
-                      Take a look at all the tools and resources I find helpful.
-                      Includes all the resources I've used to improve my skills in
-                      computer science.
-                    </p>
-                    <p>
-                      <a class = "btn btn-default" href="resources.html">Learn More</a>
+                      I was born and raised in the East San Francisco Bay Area. I've
+                      always had an interest in computers from and early age but
+                      never expected to make a career out of it.<br>
+                      I've also really had an interest in competative PC games. When
+                      I was younger I really enjoyed playing Everquest, Starcraft,
+                      and Day of Defeat. As of late I've been really interested in
+                      Counter Strike: Global Offensive and Starcraft 2. <br>
+                      My interest in PC games naturally led me to have interests in
+                      PC's themselves. That is, in building them. I have extensive
+                      experience in building personal computers and frequently
+                      follow the newest and fastest components, usually CPU's and
+                      GPU's. I'm really fascinated in how technology evolves.<br>
+                      I'm also really interested in computer security, although I
+                      really am a novice. I try to learn as much as I can on my
+                      spare time and hope to one day specialize in computer
+                      security.
                     </p>
                   </div>
                 </div>
@@ -175,9 +161,484 @@
           </div>
         </div>
       </div>
+      <div class="modal-footer">
+      </div>
     </div>
+    </div>
+    </div>
+<!----------------------------------------------------------------------------->
 
-    <div class="white-panel">
+<!--résumé--------------------------------------------------------------------->
+    <div class="modal fade" id="résumé" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">Résumé</h2>
+      </div>
+      <div class="modal-body row">
+        <!--Education-->
+            <div class="grey-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-xs-12">
+                        <h2><u>Education</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-3 col-sm-3 col-xs-6">
+                        <h3><b>University of California: Santa Cruz</b></h3>
+                        <p align="left">
+                          <i>Bachelor of Science in Computer Science</i><br>
+                          <i>Bachelor of Arts in Network and Digital Technology</i><br>
+                        </p>
+                      </div>
+
+                      <div class = "col-md-3 col-sm-3 col-xs-6">
+                        <p align="right">
+                          <i>Expected Graduation - June 2017</i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Technical Summary-->
+            <div class="white-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <h2><u>Technical Summary</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <p align="left">
+                          <b>Programming Languages:</b> C++, C, Java, Python,
+                          Ruby, Javascript, PHP, SQL, Haskell, Prolog<br>
+                          <b>Markup Languages:</b> LaTeX, HTML, CSS<br>
+                          <b>Web Application Frameworks:</b> jQuery, Bootstrap<br>
+                          <b>Mobile App Frameworks:</b> Ionic<br>
+                          <b>Application Software:</b> Git, Eclipse<br>
+                          <b>Operating Systems:</b> Unix, Kali Linux,
+                          Ubuntu Linux, FreeBSD, Windows, Mac OS X<br>
+                          <b>Spoken Languages:</b> English, Spanish
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Relevant Courses-->
+            <div class="grey-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <h2><u>Relevant Courses</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-3 col-sm-3 col-sm-6">
+                        <p align="left">
+                          Algorithms & Abstract Data Types<br>
+                          Operating Systems<br>
+                          Analysis of Algorithms<br>
+                          Introduction to Computer Networks (planned)
+                        </p>
+                      </div>
+                      <div class = "col-md-3 col-sm-3 col-sm-6">
+                        <p align="left">
+                          Data Structures<br>
+                          Intro to Probability Theory<br>
+                          Functional Programming (planned)<br>
+                          Open Source Programming (planned)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Experience-->
+            <div class="white-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <h2><u>Experience</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+                    <div class="row">
+
+                      <div class = "col-md-4 col-sm-4 col-sm-8">
+                        <h5><i>MEP/MESA Tutor (Logic Design)</i></h3>
+                        <ul>
+                          <li>Organized relevant course material for multiple students to supplement course lectures</li>
+                        </ul>
+                      </div>
+                      <div class = "col-md-2 col-sm-2 col-sm-4">
+                        <p align="right">
+                          January 2015 - June 2015
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class = "col-md-4 col-sm-4 col-sm-8">
+                        <h5><i>Storage Systems Research Center Undergraduate Researcher Assistant (Efficient Genomic Data Encoding)</i></h3>
+                        <ul>
+                          <li>Analyzed the Genome Analysis Toolkit for potential integration with researcher’s compression algorithm</li>
+                        </ul>
+                      </div>
+                      <div class = "col-md-2 col-sm-2 col-sm-4">
+                        <p align="right">
+                          March 2015 - June 2015
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Organizations/Clubs-->
+            <div class="grey-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <h2><u>Organizations</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <ul>
+                          <li>Multicultural Engineering Program</li>
+                          <li>Society of Professional Hispanic Engineers</li>
+                          <li>Security Santa Cruz</li>
+                          <li>Society of Asian Scientists and Engineers</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--Events-->
+            <div class="white-panel">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <div class="container">
+                    <div class="row">
+                      <div class = "col-md-6 col-sm-6 col-sm-12">
+                        <h2><u>Events</u></h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-body">
+                  <div class="container">
+
+                    <div class="row">
+                      <div class = "col-md-3 col-sm-3 col-sm-6">
+                        <h5><b><u>Hackathons</u></b></h5>
+                        <ul>
+                          <li>Hack UCSC 2014</li>
+                          <li>Hack UCSC 2015</li>
+                          <li>Koding Global Virtual Hackathon 2015</li>
+                        </ul>
+                      </div>
+                      <div class = "col-md-3 col-sm-3 col-sm-6">
+                        <h5><b><u>Challenge Contests</u></b></h5>
+                        <ul>
+                          <li>ProjectEuler+</li>
+                          <li>HackerRank Week of Code 17</li>
+                          <li>HackerRank Week of Code 18</li>
+                          <li>HackerRank Holiday Cup 2015</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class = "col-md-3 col-sm-3 col-sm-6">
+                        <h5><b><u>Capture the Flag</u></b></h5>
+                        <ul>
+                          <li>National Cyber League 2015 (1st place)</li>
+                          <li>Hack Dat Kiwi 2015</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--End of Resume-->
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+    </div>
+    </div>
+<!----------------------------------------------------------------------------->
+
+<!--projects------------------------------------------------------------------->
+    <div class="modal fade" id="projects" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">Projects</h2>
+      </div>
+      <div class="modal-body row">
+        <div class="grey-panel">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <h2>Programming Showcase / HackerRank.com Solutions</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                      A repository containing solutions to programming challenges
+                      and contests from the website
+                      <a href="http://www.hackerrank.com">HackerRank</a>.
+                      The programming challenges will typically require runtime analysis
+                      to be considered complete. In otherwords, a bruteforce solution will
+                      not suffice as a complete solution—code must be optimized.
+                    </p>
+                    <p>
+                      Most of my code is written in C++, but I also write solutions in
+                      Java and Python as these three are my main languages. Sometimes
+                      solutions will be written in other languages.
+                    </p>
+                    <p>
+                      If you're interested in finding out more about HackerRank,
+                      check out their FAQ in the link below. However, there is a
+                      short explanation below if you aren't interested in going onto
+                      their site.
+                    </p>
+                    <p>
+                      You can find the my repository (and subsequently my code) below.
+                    </p>
+                    <p>
+                      <a href="https://github.com/DavidDDavidson/HackerRank">GitHub Repository</a>
+                    </p>
+                    <p>
+                      <a href="https://www.hackerrank.com/faq">HackerRank FAQ</a>
+                    </p>
+                    <p>
+                      <i>
+                        HackerRank is a site for hackers from all over the world to
+                        solve programming problems in different CS domains like
+                        algorithms, machine learning and artificial intelligence,
+                        and to excel in different programming paradigms like
+                        functional programming.
+                      </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="white-panel">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <h2>Personal Website</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                      My personal website (this site) showcasing my abilities in web
+                      applications. My website is made using <b>Twitter</b>'s
+                      <b>Bootstrap</b> front-end frame work, however much of the
+                      aethetic is custom made by overriding <b>Bootstrap</b>'s
+                      CSS files. The code for this site can be found below.
+                    </p>
+                    <p>
+                      <a href="https://github.com/DavidDDavidson/UCSC-Personal-Website">GitHub Repository</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="grey-panel">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <h2>Multi-platform App</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <p>
+                      This project is currently in the early works. I'm still coming
+                      up with ideas of what to do. However, I know for sure that I
+                      want to use <b>MIT</b>'s <a href="http://ionicframework.com"><b>Ionic</b></a>
+                      framework since it is cross-platform and allows for apps to
+                      built quickly using HTML, CSS and Javascript.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+    </div>
+    </div>
+<!----------------------------------------------------------------------------->
+
+<!--resources------------------------------------------------------------------>
+    <div class="modal fade" id="resources" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel">Resources</h2>
+      </div>
+      <div class="modal-body row">
+
+        <div class="grey-panel">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="container">
+                <div class="row">
+                  <div class = "col-md-6 col-sm-6 col-xs-12">
+                    <h3><b><i>CodeCademy</i></b></h3>
+                    <p>
+                      I highly recommend using <b>CodeCademy</b> to learn about new
+                      webtechnologies, API's and various programming languages.
+                      <b>CodeCademy</b> offers free courses on all these subjects
+                      and you can learn at your own pace. I learned how code in
+                      <b>HTML</b> and <b>CSS</b> using <b>CodeCademy</b> as well as
+                      how to use the basic features of <b>Bootstrap</b>.<br>
+                      <a href="https://www.codecademy.com/">CodeCademy Website</a>
+                    </p>
+                    <h3><b><i>HackerRank</i></b></h3>
+                    <p>
+                      <b>HackerRank</b> is a site specifically for those wanting
+                      to practice their programming skills. <b>HackerRank</b>
+                      offers hundreds of programming challenges and frequent
+                      programming challenge contests where you can compete with
+                      many hackers on the site. Solving challenges gives your
+                      profile points for which can aid you to increase in rank.<br>
+
+                      What I've found most helpful about <b>HackerRank</b> is that
+                      the challenges recquire you to consider runtime to recieve
+                      the maximum number of points for a given challenge—you can't
+                      use a bruteforce solution for everything. Thus, the site
+                      forces you to always consider the efficiency of your
+                      programs—which is generally good practice and a soughtout
+                      skill in the software industry.<br>
+                      <a href="https://www.hackerrank.com/">HackerRank Website</a>
+                    </p>
+                    <h3><b><i>GitHub</i></b></h3>
+                    <p>
+                      <b>GitHub</b> is a great way to showcase your work to your
+                      collegues, the public and potential employers. Additionally,
+                      it can help to get you familiar with version control software
+                      which is highly used throughtout the software industry.<br>
+                      <a href="https://github.com/">GitHub Website</a>
+                    </p>
+                    <h3><b><i>Atom</i></b></h3>
+                    <p>
+                      <b>Atom</b> is an extremely versatile and dynamic text editor.
+                      Not only is it a breeze to code on, it's very aethetically
+                      pleasing, free, and there are plug-ins for almost anything you
+                      can think of.<br>
+                      <a href="https://atom.io/">Atom Website</a>
+                    </p>
+                    <h3><b><i>Bootstrap</i></b></h3>
+                    <p>
+                      <b>Bootstrap</b> is a front-end framework created by
+                      <b>Twitter</b> that utilizes <b>HTML</b>, <b>CSS</b>, and
+                      <b>Javascript</b> to build websites quickly and efficiently.
+                      <b>Bootstrap</b> can also be modified so suit whatever
+                      aesthetics you please.<br>
+                      <a href="http://getbootstrap.com/">Bootstrap Website</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+    </div>
+    </div>
+<!----------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------->
+
+    <div class="grey-panel">
       <div class="panel panel-default">
         <div class="panel-body">
           <div class="container">
@@ -197,9 +658,6 @@
         </div>
       </div>
     </div>
-
-
-
 
   </body>
 </html>
